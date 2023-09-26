@@ -132,3 +132,11 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.aeropress__frameborder {
+  border: none;
+}
+
+.frenchpress__frameborder {
+  border: none;
+}
