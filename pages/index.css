@@ -133,10 +133,9 @@
   line-height: 30px;
 }
 
-.aeropress__frameborder {
+.frameborder {
   border: none;
 }
 
-.frenchpress__frameborder {
-  border: none;
+.recipes__iframe {
 }
