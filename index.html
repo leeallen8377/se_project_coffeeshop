@@ -105,7 +105,54 @@
             </div>
           </div>
         </section>
-        <section id="reservation-coffee-shop" class="reservation"></section>
+        <section id="reservation-coffee-shop" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="Name" class="form__label">
+                Name *
+                <input
+                  type="text"
+                  id="Name"
+                  placeholder="Name Surname"
+                  class="form__input"
+                />
+              </label>
+              <label for="Number-of-guests" class="form__label">
+                Number of guests *<input
+                  type="number"
+                  id="Number-of-guests"
+                  placeholder="1-8"
+                  class="form__input"
+                />
+              </label>
+              <label for="Date-&-Time" class="form__label">
+                Date & Time *<input
+                  type="datetime-local"
+                  id="Date-&-Time"
+                  class="form__input"
+                />
+              </label>
+              <label for="Your-email" class="form__label">
+                Your email *
+                <input
+                  type="email"
+                  id="Your-email"
+                  placeholder="email@email.com"
+                  class="form__input"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label
+              for="Book-a-table"
+              class="form__label form__label_type_checkbox"
+            >
+              <input type="checkbox" id="Book-a-table" class="form__checkbox" />
+              I agree with terms of use
+            </label>
+          </form>
+        </section>
         <section id="menu-coffee-shop" class="menu"></section>
         <section id="about-coffee-shop" class="about"></section>
       </main>
