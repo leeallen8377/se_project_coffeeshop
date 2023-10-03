@@ -31,16 +31,16 @@
   gap: 40px;
 }
 
+.frameborder {
+  border: none;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
   color: #fff;
   font-size: 20px;
   line-height: 30px;
-}
-
-.frameborder {
-  border: none;
 }
 
 .recipes__iframe {

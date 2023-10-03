@@ -9,7 +9,7 @@
   display: flex;
 }
 
-.footer__content_social {
+.footer__content-social {
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -26,7 +26,7 @@
   margin: 0;
 }
 
-.footer__list_item {
+.footer__list-item {
   margin: 0 0 16px;
 }
 
@@ -34,7 +34,7 @@
   margin-bottom: 0;
 }
 
-.footer__social_heading {
+.footer__social-heading {
   margin: 0 0 20px;
   font-weight: bold;
   font-size: 16px;
@@ -42,7 +42,7 @@
   font-style: normal;
 }
 
-.footer__social_link {
+.footer__social-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -53,11 +53,11 @@
   line-height: 20px;
 }
 
-.footer__social_link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
