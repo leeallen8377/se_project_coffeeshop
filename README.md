@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+1.  Add garadient background to about section.
+
+2.  Change the "checked state" image and color of the checkbox on the "reservation" section.
