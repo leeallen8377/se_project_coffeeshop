@@ -31,10 +31,6 @@
   gap: 40px;
 }
 
-.frameborder {
-  border: none;
-}
-
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
@@ -44,4 +40,5 @@
 }
 
 .recipes__iframe {
+  border: none;
 }
