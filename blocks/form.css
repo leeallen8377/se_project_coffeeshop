@@ -11,6 +11,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .form__checkbox {
@@ -35,7 +36,9 @@
   box-sizing: border-box;
   border-radius: 4px;
   line-height: 30px;
-  color: #838383;
+  border-color: #838383;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .form__button {
@@ -46,6 +49,7 @@
   color: #fff;
   background-color: #2f80ed;
   font-weight: 500;
+  border: none;
 }
 
 .form__button:hover {

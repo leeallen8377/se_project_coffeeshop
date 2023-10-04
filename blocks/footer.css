@@ -30,7 +30,7 @@
   margin: 0 0 16px;
 }
 
-.footer__list_item:nth-of-type(2n) {
+.footer__list-item:nth-of-type(2n) {
   margin-bottom: 0;
 }
 
